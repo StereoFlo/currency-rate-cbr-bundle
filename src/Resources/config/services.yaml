@@ -1,0 +1,6 @@
+services:
+  CurrencyRateCbrBundle\CurrencyManager:
+    alias: 'currency_rate_cbr.currency_manager'
+
+  CurrencyRateCbrBundle\CurrencyFactory:
+    alias: 'currency_rate_cbr.factory'

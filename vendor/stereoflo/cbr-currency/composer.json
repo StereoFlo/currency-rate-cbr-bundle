@@ -1,0 +1,17 @@
+{
+  "name": "stereoflo/cbr-currency",
+  "description": "",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Stereoflo\\CbrCurrency\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "ext-simplexml": "*",
+    "symfony/http-client": "^5.3"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

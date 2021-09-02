@@ -1,0 +1,22 @@
+{
+  "name": "stereoflo/currency-rate-cbr-bundle",
+  "description": "",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "require": {
+    "php": "^7.4",
+    "symfony/framework-bundle": "^5.0",
+    "symfony/console": "^5.2",
+    "symfony/finder": "^5.2",
+    "symfony/yaml": "^5.2",
+    "symfony/cache": "^5.2",
+    "stereoflo/cbr-currency": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CurrencyRateCbrBundle\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
+
